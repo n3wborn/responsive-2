@@ -189,3 +189,248 @@ h2, h3, button{
 }
 
 
+@media only screen and (min-width: 992px) and (max-width: 1199.98px){
+    #first_part{
+        padding-bottom: 3.75rem;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container > div:first-child{
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 3.75rem;
+    }
+
+    .container > div:not(:first-child){
+        width:30%;
+    }
+
+    #second_part > .container{
+        flex-direction: column;
+    }
+
+    #second_part > .container > p{
+        text-align: center;
+        margin-bottom: 1.5625rem;
+    }
+
+    #second_part > .container > div{
+        width:62%;
+        margin: auto;
+    }
+}
+
+/* tablette 7 puces */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+    #first_part{
+        padding-bottom: 3.75rem;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+
+    .container > div:first-child{
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 3.75rem;
+        padding: 0 0;
+    }
+
+   
+
+    .container > div:not(:first-child){
+        width:30%;
+    }
+
+    .container > div:nth-child(2), .container > div:nth-child(3){
+        width:45%;
+    }
+
+    .container > div:nth-child(3){
+        text-align: right;
+    }
+
+
+    .container > div:last-child{
+        width: 90%;
+        margin-bottom: 0;
+        margin-top:1.5625rem;
+    }
+
+
+    #first_part form button{
+        width:100%;
+        font-size: 1.5rem;
+    }
+
+
+    #second_part > .container{
+        flex-direction: column;
+    }
+
+    #second_part > .container > p{
+        text-align: center;
+        margin-bottom: 1.5625rem;
+    }
+
+    #second_part > .container > div{
+        width:90%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width:767.98px){
+    #first_part{
+        padding-bottom: 3.75rem;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+
+    .container > div:first-child{
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 3.75rem;
+        padding:0 1.4375rem;
+    }
+
+   
+
+    .container > div:not(:first-child){
+        width:30%;
+    }
+
+    .container > div:nth-child(2), .container > div:nth-child(3){
+        width:45%;
+    }
+
+    .container > div:nth-child(3){
+        text-align: right;
+    }
+
+
+    .container > div:last-child{
+        width: 90%;
+        margin-bottom: 0;
+        margin-top:1.5625rem;
+    }
+
+
+    #first_part form button{
+        width:100%;
+        font-size: 1.5rem;
+    }
+
+
+    #second_part > .container{
+        flex-direction: column;
+    }
+
+    #second_part > .container > p{
+        text-align: center;
+        margin-bottom: 1.5625rem;
+    }
+
+    #second_part > .container > div{
+        width:90%;
+        margin: auto;
+    }
+
+    #second_part .f-3{
+        font-size: .875rem;;
+    }
+}
+
+
+@media only screen and (max-width: 479.98px){
+  
+    
+    #first_part{
+        padding-bottom: 3.75rem;
+        padding-top: 3.75rem;
+        padding-left:1.25rem;
+        padding-right:1.25rem;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+
+    .container > div:first-child{
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 3.75rem;
+        padding:0 1.4375rem;
+    }
+
+   
+
+    .container > div:not(:first-child){
+        width:30%;
+    }
+
+    .container > div:nth-child(2), .container > div:nth-child(3){
+        width:100%;
+        text-align: center;
+    }
+
+    .container > div:nth-child(3){
+        text-align: center;
+    }
+
+
+    .container > div:last-child{
+        width: 90%;
+        margin-bottom: 0;
+        margin-top:1.5625rem;
+        text-align: center;
+    }
+
+
+    #first_part form button{
+        width:100%;
+        font-size: 1.5rem;
+    }
+
+
+    #second_part > .container{
+        flex-direction: column;
+    }
+
+    #second_part > .container > p{
+        text-align: center;
+        margin-bottom: 1.5625rem;
+    }
+
+    #second_part > .container > div{
+        width:90%;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #second_part > .container > div > p{
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    #second_part .f-3{
+        font-size: .875rem;
+    }
+}
